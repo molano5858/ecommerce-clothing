@@ -16,7 +16,7 @@ const DirectoryItem=({category})=>{
                 </div> */}
             <Link className='body' to={'/shop/'+title}>
                 <div >
-                    <h2>{title.toUpperCase()}</h2>
+                    <h2>{title}</h2>
                     <p>Shop Now</p>
                 </div>
             </Link>
